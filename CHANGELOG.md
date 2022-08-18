@@ -10,6 +10,17 @@
 
 
 
+## [0.39.0](https://www.github.com/inverted-capital/js-libp2p/compare/v0.38.0...v0.39.0) (2022-08-18)
+
+
+### ⚠ BREAKING CHANGES
+
+* the `loadKeychain` method has been removed as it is no longer necessary
+
+### Bug Fixes
+
+* load self key into keychain on startup if not present ([#1357](https://www.github.com/inverted-capital/js-libp2p/issues/1357)) ([1f38ab7](https://www.github.com/inverted-capital/js-libp2p/commit/1f38ab7ac8380c9501b252d076bb356662978882)), closes [#1315](https://www.github.com/inverted-capital/js-libp2p/issues/1315)
+
 ## [0.38.0](https://www.github.com/libp2p/js-libp2p/compare/v0.37.3...v0.38.0) (2022-08-17)
 
 
